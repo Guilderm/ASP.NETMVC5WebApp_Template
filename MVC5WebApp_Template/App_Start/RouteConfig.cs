@@ -12,7 +12,7 @@ namespace MVC5WebApp_Template
             routes.MapRoute(
                 "Default",
                 "{controller}/{action}/{id}",
-                new { controller = "Main", action = "FrontPage", id = UrlParameter.Optional }
+                new {controller = "Main", action = "FrontPage", id = UrlParameter.Optional}
             );
         }
     }
