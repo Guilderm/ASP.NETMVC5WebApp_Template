@@ -132,18 +132,11 @@
     <Content Include="Artifacts\Vendors\Bootstrap 5.0.2\js\bootstrap.bundle.js" />
     <Content Include="Global.asax" />
     <Content Include="Artifacts\Styles\SiteWide.css" />
-    <None Include="Scripts\jquery-3.6.0.intellisense.js" />
-    <Content Include="Scripts\jquery-3.6.0.js" />
-    <Content Include="Scripts\jquery-3.6.0.min.js" />
-    <Content Include="Scripts\jquery-3.6.0.slim.js" />
-    <Content Include="Scripts\jquery-3.6.0.slim.min.js" />
-    <Content Include="Scripts\jquery-3.6.0.slim.min.map" />
-    <Content Include="Scripts\jquery-3.6.0.min.map" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <None Include="Artifacts\Vendors\JQuery\jquery-3.6.0.intellisense.js" />
+    <Content Include="Artifacts\Vendors\JQuery\jquery-3.6.0.js" />
+    <None Include="Artifacts\Vendors\JQuery\jquery.validate-vsdoc.js" />
+    <Content Include="Artifacts\Vendors\JQuery\jquery.validate.js" />
+    <Content Include="Artifacts\Vendors\JQuery\jquery.validate.unobtrusive.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
