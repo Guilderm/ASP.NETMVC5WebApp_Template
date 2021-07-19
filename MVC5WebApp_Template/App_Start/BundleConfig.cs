@@ -6,10 +6,10 @@ namespace MVC5WebApp_Template
     {
         public static void RegisterBundles(BundleCollection bundles)
         {
-            bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
+            bundles.Add(new ScriptBundle("~/SiteWide/Scripts").Include(
                 "~/Artifacts/Vendors/JQuery/jquery-{version}.js"));
 
-            bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
+            bundles.Add(new ScriptBundle("~/SiteWide/Scripts").Include(
                 "~/Artifacts/Vendors/JQuery/jquery.validate*"));
 
             bundles.Add(new Bundle("~/SiteWide/Scripts").Include(
